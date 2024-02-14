@@ -1,0 +1,4 @@
+@charset "UTF-8";
+aside>ul{list-style-position: inside;
+columns: 2;}
+aside, ol{text-align: center;}
