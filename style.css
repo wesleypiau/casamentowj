@@ -2,9 +2,40 @@
 aside>ul{list-style-position: inside;
 columns: 2;}
 aside, ol{text-align: center;}
+:root{
+    --verdeapagado: rgba(158, 225, 188, 0.671)
+    --cinza: rgb(165, 165, 165)
+    --verdeclaro: rgba(111, 245, 171, 0.671)
+
+}
 body{
-    background-image: url('imgindexfun.jpeg');
+    background-image: url('fotodef2.jpeg');
+}
+.roupabranca{
+    background-image: linear-gradient(to bottom,rgba(158, 225, 188, 0.671), rgb(165, 165, 165), rgba(111, 245, 171, 0.671) );
+    width: 395px;
+    height: 530px;
+}
+
+#videojw{
+    background-color: aqua;
+    width: 395px;
+    height: 330px;
+ 
+    
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
+nav  
+
+a:hover{
+    background-color:black ;
+text-decoration: none;}
+a{text-decoration: overline;
+border-radius: 5px;
+color: darkgoldenrod;
+text-shadow:2px 0px 1px  black;}
+
+
+
